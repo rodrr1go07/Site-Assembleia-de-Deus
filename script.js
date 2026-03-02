@@ -1,6 +1,7 @@
-// ================= DADOS REAIS - ÁREA 1 =================
+// ================= DADOS REAIS =================
 
 const dados = [
+  // ================= ÁREA 1 =================
   {
     area: "Área 1",
     setores: [
@@ -98,7 +99,87 @@ const dados = [
       }
 
     ]
+  },
+
+  // ================= ÁREA 6 =================
+  {
+    area: "Área 6",
+    setores: [
+
+      {
+        nome: "Setor 20",
+        congregacoes: [
+          { nome: "Cidade Praia", polo: true },
+          { nome: "Alvorecer", polo: false },
+          { nome: "Cidade Santa", polo: false },
+          { nome: "Jardim Progresso", polo: false },
+          { nome: "Jardim Progresso II", polo: false },
+          { nome: "Novo Amanhecer", polo: false },
+          { nome: "Jardim Divino", polo: false }
+        ]
+      },
+
+      {
+        nome: "Setor 30",
+        congregacoes: [
+          { nome: "Vale Dourado I", polo: true },
+          { nome: "Bom Jardim", polo: false },
+          { nome: "Canaã", polo: false },
+          { nome: "Gerezim Norte", polo: false },
+          { nome: "Maranata", polo: false }
+        ]
+      },
+
+      {
+        nome: "Setor 32",
+        congregacoes: [
+          { nome: "Santa Catarina II", polo: true },
+          { nome: "Filhos do Rei", polo: false },
+          { nome: "Galiléia", polo: false },
+          { nome: "Porta das Ovelhas", polo: false },
+          { nome: "Renascer", polo: false },
+          { nome: "Solidade I", polo: false }
+        ]
+      },
+
+      {
+        nome: "Setor 34",
+        congregacoes: [
+          { nome: "Boa Sorte I", polo: true },
+          { nome: "Boa Sorte II", polo: false },
+          { nome: "Boas Novas I", polo: false },
+          { nome: "Novas de Alegria", polo: false },
+          { nome: "Tanque de Siloé", polo: false }
+        ]
+      },
+
+      {
+        nome: "Setor 36",
+        congregacoes: [
+          { nome: "Boa Esperança", polo: true },
+          { nome: "Arcada do Concerto", polo: false },
+          { nome: "Carvalhais de Manre", polo: false },
+          { nome: "Grande Natal", polo: false },
+          { nome: "Nordelândia", polo: false },
+          { nome: "Sub. Luz da Aurora", polo: false }
+        ]
+      },
+
+      {
+        nome: "Setor 37",
+        congregacoes: [
+          { nome: "Nova Aliança", polo: true },
+          { nome: "Aliança com Cristo", polo: false },
+          { nome: "Centenário", polo: false },
+          { nome: "Maanaim", polo: false },
+          { nome: "Monte Carmelo", polo: false },
+          { nome: "Nova Esperança", polo: false }
+        ]
+      }
+
+    ]
   }
+
 ];
 
 
