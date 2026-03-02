@@ -20,36 +20,40 @@ body {
 }
 
 header {
-  background: var(--cor-primaria);
+  background: linear-gradient(90deg, var(--cor-primaria), var(--cor-secundaria));
   color: var(--cor-branco);
   text-align: center;
-  padding: 1.8rem 0;
+  padding: 2rem 0;
   font-size: 1.8rem;
   font-weight: bold;
 }
 
 .container {
   width: 90%;
-  max-width: 960px;
-  margin: 1.2rem auto;
+  max-width: 1000px;
+  margin: 2rem auto;
 }
 
 .selections {
   display: flex;
-  justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 select {
   width: 100%;
-  padding: 0.9rem;
+  padding: 1rem;
   border: 2px solid var(--cor-secundaria);
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 1rem;
   background: var(--cor-branco);
   color: var(--cor-primaria);
   cursor: pointer;
+  transition: 0.3s;
+}
+
+select:hover {
+  border-color: var(--cor-destaque);
 }
 
 select:disabled {
@@ -65,20 +69,30 @@ select:disabled {
 
 .card {
   background: var(--cor-branco);
-  border-radius: 8px;
-  padding: 1rem;
+  border-radius: 10px;
+  padding: 1.2rem;
   border: 2px solid var(--cor-secundaria);
   transition: 0.3s;
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
   border-color: var(--cor-destaque);
 }
 
 .polo {
   border-left: 6px solid var(--cor-destaque);
-  padding-left: 0.8rem;
+}
+
+/* 🔥 Congregação Especial */
+.especial {
+  border: 3px solid gold;
+  background: linear-gradient(135deg, #fff8dc, #ffeaa7);
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.6);
+}
+
+.especial h3 {
+  color: #b8860b;
 }
 
 h3 {
