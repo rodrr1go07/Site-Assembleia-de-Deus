@@ -131,3 +131,82 @@ body {
 main {
     padding: 40px;
 }
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* HEADER */
+.topo {
+    width: 100%;
+    background: linear-gradient(135deg, #0a3d62, #1e90ff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* LOGO */
+.logo {
+    width: 150px;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* TÍTULOS */
+.topo h1 {
+    font-size: 26px;
+}
+
+.topo p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* CONTEÚDO */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ===== RESPONSIVIDADE EXTRA PARA TELAS MAIORES ===== */
+@media (min-width: 768px) {
+
+    .topo {
+        padding: 60px 20px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .topo h1 {
+        font-size: 36px;
+    }
+
+    .topo p {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+}
