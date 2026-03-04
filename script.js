@@ -90,6 +90,87 @@ const dados = [
   },
 
   {
+    area: "Área 2",
+    setores: [
+      {
+        nome: "Setor 5",
+        congregacoes: [
+        { nome: "Candelária", polo: true },
+        { nome: "Fonte de Vida" },
+        { nome: "Lagoa Nova" },
+          { nome: "Nova Cidade" }
+        ]
+      },
+      {
+        nome: "Setor 8",
+        congregacoes: [
+        { nome: "Pirangi", polo: true },
+        { nome: "Jardim das Acácias" },
+        { nome: "Monte Gerezim" },
+        { nome: "Neópolis" },
+          { nome: "Portal do Jiqui" }
+        ]
+      },
+      {
+        nome: "Setor 16",
+        congregacoes: [
+        { nome: "Cidade Satélite", polo: true },
+        { nome: "Conj. dos Bancários" },
+        { nome: "Lírio das Serras" },
+        { nome: "Parque do Horto" },
+        { nome: "Pitimbú" },
+        { nome: "Semente da Fé" }
+    ],
+
+    "Setor 22": [
+        { nome: "Planalto", polo: true },
+        { nome: "Jardim do Éden" },
+        { nome: "Monte Hebrom" },
+        { nome: "Monte Hermom" },
+        { nome: "Monte Sião" },
+        { nome: "Portal do Alvorecer" }
+    ],
+
+    "Setor 23": [
+        { nome: "Conj. Ponta Negra", polo: true },
+        { nome: "Boa Vista" },
+        { nome: "Capim Macio" },
+        { nome: "Morro do Careca" },
+          { nome: "Vila de Ponta Negra" }
+        ]
+      },
+      {
+        nome: "Setor 25",
+        congregacoes: [
+        { nome: "Parque dos Eucaliptos", polo: true },
+        { nome: "Cafarnaum" },
+        { nome: "Cidade Verde" },
+        { nome: "Colina do Jiqui" },
+        { nome: "Nova Parnamirim" },
+        { nome: "Parque das Árvores" },
+        { nome: "Parque de Jiqui" },
+        { nome: "Sub Fonte da Salvação" },
+          { nome: "Vale do Renovo" }
+        ]
+      },
+      {
+        nome: "Setor 29",
+        congregacoes: [
+        { nome: "Betfagé", polo: true },
+        { nome: "Boas Novas do Planalto" },
+        { nome: "Canaã de Deus" },
+        { nome: "Geração Eleita" },
+        { nome: "Manancial de Bênçãos" },
+        { nome: "Primícias de Cristo" },
+        { nome: "Rocha da Salvação" },
+        { nome: "Sub. Belém" },
+        { nome: "Sub. Rocha Eterna" },
+        { nome: "Torre Forte de Siloé" }
+        ]
+      }
+    ]
+  },
+  {
     area: "Área 6",
     setores: [
       {
@@ -130,11 +211,12 @@ const dados = [
         congregacoes: [
           { nome: "Boa Sorte I", polo: true },
           { nome: "Boa Sorte II" },
-          { nome: "Boas Novas ", especial: true },
+          { nome: "Boas Novas " },
           { nome: "Novas de Alegria" },
           { nome: "Tanque de Siloé" }
         ]
       },
+      
       {
         nome: "Setor 36",
         congregacoes: [
